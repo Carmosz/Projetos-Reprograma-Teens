@@ -1,0 +1,90 @@
+
+
+*{
+    font-family: 'Special Elite', cursive;
+    background-color: rgb(202, 213, 248);
+}
+
+.container1{
+    width: 25%;
+    padding: 15px;
+}
+
+.container2{
+    width: 40%;
+    padding: 15px;
+}
+.container_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    font-size: 15px;
+    text-align: left;
+    margin: 50px;
+    max-width: 800px;
+    line-height: 36px;
+    padding: 30px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.perguntas{
+    margin-bottom: 40px;
+}
+
+.email{
+    margin-bottom: 40px;
+}
+
+.title2{
+    text-align: end;
+    color: rgb(7, 57, 207);
+    font-size: 18px;
+}
+
+input:focus{
+    background-color: rgb(137, 140, 194);
+}
+
+textarea:focus{
+    background-color: rgb(133, 134, 219);
+}
+
+select:focus{
+    background-color: rgb(126, 148, 206);
+}
+
+.butao{
+ display: flex;
+ justify-content: center;
+}
+
+.botao:hover{
+    opacity: 0.8;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+.botao{
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(92, 61, 204);
+    margin: 10px;
+    padding: 15px;
+}
+
+footer{
+    margin: 60px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}

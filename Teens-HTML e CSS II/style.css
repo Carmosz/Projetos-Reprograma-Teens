@@ -1,0 +1,106 @@
+*{
+    background-color: rgb(219, 188, 248);
+    font-family: 'Special Elite', cursive;
+}
+
+.container_h1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    line-height: 50px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 15%;
+    padding: 15px;
+}
+
+fieldset{
+    max-width:800px;
+    padding: 30px;
+    line-height: 36px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}
+
+.botao_1:hover{
+    opacity: 0.8;
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+input:focus{
+    background-color: rgb(139, 103, 139);
+}
+
+textarea:focus{
+    background-color: rgb(138, 109, 138);
+}
+
+select:focus{
+    background-color: rgb(141, 94, 141);
+}
+.botao_1{
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: rgb(92, 61, 204);
+    margin: 10px;
+    padding: 15px;
+}   
+
+.eu{
+    font-size: 15px;
+    margin-bottom: 25px;
+   
+}
+
+.familia{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.hobbies{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.login{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+
+table{
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(174, 122, 226);
+    max-width: 800px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+td,
+th{
+    padding: 15px;
+}
+
+footer{
+    margin: 60px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+}

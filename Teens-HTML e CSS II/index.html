@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container_h1">
+        <h1>Oi, meu nome é Jeniffer e esse é o meu primeiro formulário em HTML</h1>
+        <img class="container" src="https://media.giphy.com/media/ZGBQhaRTHyWtRVn1Xx/giphy.gif"
+            alt="giphy de friends" />
+    </div>
+    <div class="box">
+        <form>
+            <fieldset class="eu">
+                <legend>Sobre mim</legend>
+                <label>Meu nome:</label>
+                <input type="text" placeholder="ex.: Jeniffer"/><br>
+                <label>Minha idade:</label>
+                <input type="text" placeholder="ex.:16"/><br>
+                <label>Minha data de nascimento:</label>
+                <input type="date"/><br>
+                <label>Minha cidade:</label>
+                <input type="text" placeholder="ex.:Mauá"/> <br>
+                <label>Qual meu maior sonho?</label>
+                <textarea cols="30" rows="10"
+                    placeholder="Meu maior sonho é me encontrar e ser feliz com todas minhas conquistas"></textarea>
+                <br>
+                <label>Uma foto minha:</label>
+                <input type="file"/>
+                <button>upload</button>
+            </fieldset>
+            <fieldset class="familia">
+                <legend>Sobre minha familia</legend>
+                <label>Eu moro com:</label>
+                <input type="checkbox" value="Sozinha"/>
+                <label>Sozinha</label>
+                <input type="checkbox" value="Com meus pais/avós"/>
+                <label>Com meus pais/avós</label>
+                <input type="checkbox" value="Com irmãos/irmãs"/>
+                <label>Com irmãos/irmãs</label>
+                <input type="checkbox" value="Com outras pessoas amadas"/>
+                <label>Com outras pessoas amadas</label><br>
+                <label>Tenho um pet?</label>
+                <select>
+                    <option value="cachorro">cachorro</option>
+                    <option value="gato">gato</option>
+                    <option value="aves">papagaio/passaro</option>
+                    <option value="peixes">peixes</option>
+                    <option value="semPets">Não tenho pet</option>
+                </select><br>
+                <label>Eu moro em um/a:</label>
+                <input type="radio" name="casa" value="casa"/>
+                <label>casa</label>
+                <input type="radio" name="apartamento" value="apartamento"/>
+                <label>apartamento</label>
+                <input type="radio" name="não tenho casa" value="não tenho casa"/>
+                <label>não tenho casa</label>
+            </fieldset>
+            <fieldset class="hobbies">
+                <legend>Meus Hobbies:</legend>
+                <label>O que me deixa feliz?</label>
+                <input type="text"/><br>
+                <label>O que eu mais gosto de comer?</label>
+                <input type="text"/><br>
+                <label>Lugar preferido?</label>
+                <input type="text"/><br>
+                <label>Série/filme que eu amo:</label>
+                <input type="text"/><br>
+                <label>Música favorita:</label>
+                <audio src="./WhatsApp Audio 2020-11-07 at 17.14.00.mpeg" controls></audio>
+            </fieldset>
+            <fieldset class="login">
+                <legend>Meu login:</legend>
+                <label>Nome de usuario:</label>
+                <input type="email"/><br>
+                <label>Senha:</label>
+                <input type="password"/> <br>
+            </fieldset>
+            <div class="botao">
+                <input class="botao_1" type="submit" value="Enviar Formulario"/>
+            </div>
+        </form>
+    </div>
+    <div class="main">
+        <table>
+            <tr>
+                <th></th>
+                <th>Sábado</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+            <tr>
+                <th>Manhã</th>
+            <td>Descanso</td>
+            <td>Bom dia e Cia</td>
+            <td>Limpar casa</td>
+            <td>Limpar casa</td>
+            <td>Preguiça</td>
+            <td>Preguiça</td>
+        </tr>
+        <tr>
+            <th>Tarde</th>
+            <td>Aula de Reprograma</td>
+            <td>Orientação</td>
+            <td>Plantão de Duvidas</td>
+            <td>Aula de Reprograma</td>
+            <td>Plantão de Duvidas</td>
+            <td>Entrega de exercicios</td>
+        </tr>
+        <tr>
+            <th>Noite</th>
+            <td>Assistir netflix</td>
+            <td>Sair</td>
+            <td>Exercitar</td>
+            <td>Fazer exercicios da Reprograma</td>
+            <td>Estudar</td>
+            <td>Ver mais netflix</td>
+        </tr>
+    </table>
+</div>
+    <footer>
+        <p>Esse Formulario doi criado durante o curso Reprograma Teens em Novembro 2020</p>
+    </footer>
+</body>
+
+</html>

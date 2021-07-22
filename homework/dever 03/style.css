@@ -1,0 +1,112 @@
+* {
+    font-size: 18px;
+    font-family: 'Castoro', serif;
+  }
+  
+  
+  body {
+    box-sizing: border-box;
+    background-color: rgb(230, 125, 106);
+  }
+  
+  header>nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin-bottom: 80px;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 350px;
+    color: crimson;
+    font-weight: bold;
+  }
+  
+  header ul>li{
+      font-size: 0.9rem;
+  }
+  
+  header h1{
+      font-size: 3rem;
+      font-family: 'Castoro', serif;
+      text-align: center;
+  }
+  
+  header h3{
+      font-size: 2rem;
+      font-weight: lighter;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+
+  .texto__container{
+      display: flex;
+      justify-content: center;
+      margin: 30px;
+      background-color: rgb(167, 206, 221);
+      border: 1px dashed rgb(84, 123, 196);
+      box-shadow: 2px 2px 5px 5px rgb(235, 68, 68);
+  }
+  .texto_principal{
+    max-width: 990px;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  section img{
+    max-width: 250px;
+    min-height: 150px;
+  }
+
+  .main__section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .main_trioImg > div {
+    padding: 25px;
+  }
+
+  img + p {
+    color: black;
+    font-weight: bolder;
+    margin-top: 3px;
+    font-size: 1rem;
+  }
+
+  footer {
+    background-color: rgb(169, 208, 245);
+    padding: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+  footer p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  .footer__contato--lista {
+   display: flex;
+   justify-content: center;
+  }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+

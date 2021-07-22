@@ -1,0 +1,145 @@
+* {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+  }
+  
+  header>nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-bottom: 80px;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    min-width: 350px;
+    color: crimson;
+    font-weight: bold;
+  }
+  
+  header ul>li{
+      font-size: 0.9rem;
+  }
+  
+  header h1{
+      font-size: 2rem;
+      font-family: 'Quicksand', sans-serif;
+      text-align: center;
+  }
+  
+  header h3{
+      font-size: 1.1rem;
+      font-weight: lighter;
+      font-style: italic;
+      text-align: center;
+      margin-bottom: 100px;
+  }
+  
+  .main__textoPrincipal--container{
+      display: flex;
+      justify-content: center;
+      margin: 40px;
+      background-color: whitesmoke;
+      border: 1px dashed yellowgreen;
+      box-shadow: 2px 2px 5px 5px gray;
+      
+  }
+  
+  .main__textoPrincipal{
+     
+    
+  }
+  
+  section img {
+    max-width: 230px;
+    min-height: 150px;
+  }
+  
+  .main__sectionImages--trioImg {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  
+  .main__sectionImages--trioImg > div {
+    padding: 18px;
+  }
+
+  img + p {
+    color: grey;
+    font-weight: bold;
+    margin-top: -4px;
+    font-size: 1.1rem;
+}
+
+* {
+    font-size: 18px;
+}
+  
+  @media (max-width: 730px) {
+    * {
+      font-size: 17px;
+    }
+  
+    header {
+      margin-bottom: -50px;
+    }
+  
+    .main__textoPrincipal {
+      line-height: 30px;
+    }
+  }
+  
+  @media (max-width:560px){
+      header ul{
+          display: block;
+      }
+      header > nav {
+          justify-content: flex-start;
+      }
+  
+  }
+
+  footer{
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  footer p:first-child {
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-style: normal;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.footer__contato--lista-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
